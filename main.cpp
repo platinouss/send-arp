@@ -44,7 +44,7 @@ int main(int argc, char* argv[]) {
     Mac My_Mac_Addr = mac_addr;
 
 
-    //2. Send Request ARP Packet to Sender(Victim)
+    //2. Send ARP Request Packet to Sender(Victim)
     EthArpPacket packet;
     packet.eth_.dmac_ = Mac(Mac::broadcastMac());
     packet.eth_.smac_ = My_Mac_Addr;
