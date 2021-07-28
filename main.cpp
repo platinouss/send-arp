@@ -6,7 +6,6 @@
 #include "getmac.h"
 #include "getip.h"
 
-#define MAC_ALEN 6
 
 #pragma pack(push, 1)
 struct EthArpPacket final {
